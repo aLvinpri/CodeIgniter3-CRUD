@@ -4,6 +4,11 @@ class Mahasiswa_model extends CI_model
 {
   public function getAllMahasiswa()
   {
+    // Cara 1 ********
+    // $this->db->get('mahasiswa');
+    // return $query->result_array();
+
+    // Cara 2 ********
     return $this->db->get('mahasiswa')->result_array();
   }
 

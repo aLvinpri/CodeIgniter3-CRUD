@@ -7,6 +7,9 @@ class Mahasiswa extends CI_Controller
     parent::__construct(); //aturan dari codeigniter jia ingin me load construct
     $this->load->model('Mahasiswa_model');
     //   $this->load->library('form_validation');
+    
+    // Cara meload modul base_url di controller
+    // $this->load->helper('url');
   }
 
   public function index()
