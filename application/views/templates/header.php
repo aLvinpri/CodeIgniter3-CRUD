@@ -22,6 +22,7 @@
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="<?= base_url(); ?>">Home</a>
           <a class="nav-item nav-link" href="<?= base_url(); ?>mahasiswa">Mahasiswa</a>
+          <a class="nav-item nav-link" href="<?= base_url(); ?>peoples">Peoples</a>
           <a class="nav-item nav-link" href="<?= base_url(); ?>about">About</a>
         </div>
       </div>
